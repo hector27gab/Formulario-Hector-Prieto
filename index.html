@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+  <!--CONTAINER Y CARD-->
+  <div class="container justify-content-center alling-items-center">
+    <div class="card w-80 mb-3 my-3">
+      <div class="card-body">
+        <h4 class="card-title ms-2">
+          Payment form example
+        </h4>
+        <fieldset class="ms-3 my-4 mb-2 fw-semibold text-danger">
+          Some fields are missing
+        </fieldset>
+      </div>
+      <!--MODULO DE IMPUTs-->
+      <div class="row">        
+        <!--Div Column 1-->
+        <div class="col-5 justify-content-center">
+          <div class="input-group p-2 d-flex flex-column">
+            <p class="fw-semibold ms-2 mb-2">
+              Card #
+            </p>
+            <input type="text" class="form-control w-100" aria-describedby="basic-addon1" aria-label="XXXXXXXXXXXXXXXX" placeholder="XXXXXXXXXXXXXXXX" autofocus>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="input-group p-2 d-flex flex-column">
+            <p class="fw-semibold ms-2 mb-2">
+              CVC #
+            </p>
+            <input type="text" class="form-control w-100" aria-describedby="basic-addon1" aria-label="0000" placeholder="0000">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="input-group p-2 d-flex flex-column">
+            <p class="fw-semibold ms-2 mb-0">
+              Amount
+            </p>
+          </div>
+          <div class="d-flex me-2">
+            <p class="fw-bold">
+              $
+            </p>
+            <input type="text" class="form-control w-100" aria-describedby="basic-addon1" aria-label="Amount" placeholder="Amount">
+          </div>
+        </div>
+        <!--Column 1 Name-->
+        <div class="col-6">
+          <div class="input-group p-2 d-flex flex-column">
+            <p class="fw-semibold ms-2 mb-2">
+              First Name
+            </p>
+            <input type="text" class="form-control w-100" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group p-2 d-flex flex-column">
+            <p class="fw-semibold ms-2 mb-2">
+              City
+            </p>
+            <input type="text" class="form-control w-100" aria-describedby="basic-addon1">
+          </div>
+          <div class="col-4 ms-4">
+            <p class="fw-semibold ms-2 mb-2">
+              We accept
+            </p>
+            <!--Card Icons-->
+            <form>
+              <div class="gender-checkbox bg-secondary rounded">
+                <input type="radio" class="check-input ms-2" name="card" type="checkbox" />          
+                  <i class="fa-brands fa-cc-mastercard" style="color:#FFFFFF"></i>
+                
+                <input type="radio" class="check-input ms-1" name="card" type="checkbox" />
+                  <i class="fa-brands fa-cc-visa" style="color:#FFFFFF"></i>
+                
+                <input type="radio" class="check-input ms-1" name="card" type="checkbox" />              
+                  <i class="fa-brands fa-cc-diners-club" style="color:#FFFFFF"></i> 
+
+                <input type="radio" class="check-input ms-1" name="card" type="checkbox" />            
+                  <i class="fa-brands fa-cc-paypal" style="color:#FFFFFF"></i>            
+              </div>
+            </form>            
+          </div>  
+        </div>
+        <!--Column 2 Name-->
+        <div class="col-6">
+          <div class="input-group p-2 d-flex flex-column">
+            <p class="fw-semibold ms-2 mb-2">
+              Last Name
+            </p>
+            <input type="text" class="form-control w-100" aria-describedby="basic-addon1">
+          </div>
+          <div class="col-12 d-flex">
+            <div class="input-group p-2 d-flex flex-column">
+              <p class="fw-semibold ms-2 mb-2">
+                State
+              </p>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" aria-label="Pick a state" placeholder="Pick a state">
+                <button class="btn btn-outline-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <!--cambiar-->
+                  <i class="fa-solid fa-caret-down"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      California
+                    </a>
+                  </li> 
+                  <li>  
+                    <a class="dropdown-item" href="#">
+                      Texas
+                    </a>
+                  </li>           
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Florida
+                    </a>
+                  </li> 
+                  <li>  
+                    <a class="dropdown-item" href="#">
+                      Virginia
+                    </a>
+                  </li>            
+                </ul>
+              </div>              
+            </div>
+            <div class="col-6">
+              <div class="input-group p-2 d-flex flex-column">
+                <p class="fw-semibold ms-2 mb-2">
+                  Post Code
+                </p>
+                <input type="text" class="form-control w-100" aria-describedby="basic-addon1">
+              </div>  
+            </div>  
+          </div>  
+          <div class="col-12">
+            <div class="input-group p-2 d-flex flex-column">
+              <p class="fw-semibold ms-2 mb-2">
+                Message
+              </p>
+              <textarea class="form-control w-100" aria-label="With textarea"></textarea>
+            </div>
+            <div class="container gap-6">  
+              <footer class="text-secondary">Add any notes here.</footer>
+            </div>
+        </div>  
+      </div>
+
+        <!--btn send-->
+        <div class="footer gap-3 text-end mb-3">
+          <input type="submit" class="btn btn-se btn-sn" value="Cancel" />
+          <input type="submit" class="btn btn-primary btn-sn" value="Send" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+      </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+      </script>
+</body>
+
+</html>
